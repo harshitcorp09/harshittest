@@ -1,13 +1,3 @@
-terraform {
-  cloud {
-    hostname = "harshit-fdo-docker-test.tf-support.hashicorpdemo.com"
-    organization = "Harshit-FDO-Docker"
-
-    workspaces {
-      name = "CLI-Diven"
-    }
-  }
-}
 provider "aws" {
  region = "ap-south-1"
 }
