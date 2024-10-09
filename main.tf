@@ -11,7 +11,7 @@ terraform {
 provider "time" {}
 
 resource "time_sleep" "wait_1_minute" {
-  create_duration = "1m" // 1 minute sleep time
+  create_duration = "2m" // 1 minute sleep time
 }
 
 # Example resource to demonstrate the delay
